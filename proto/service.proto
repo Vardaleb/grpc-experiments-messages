@@ -9,5 +9,5 @@ service DemoService {
   rpc Unary(DemoRequest) returns (DemoResponse);
   rpc ServerStreaming(DemoRequest) returns (stream DemoResponse);
   rpc ClientStreaming(stream DemoRequest) returns (DemoResponse);
-  rpc BidriectionalStreaming(stream DemoRequest) returns (stream DemoResponse);
+  rpc BidirectionalStreaming(stream DemoRequest) returns (stream DemoResponse);
 }
