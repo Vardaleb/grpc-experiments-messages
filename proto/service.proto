@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package demo;
+
 import "demo_request.proto";
 import "demo_response.proto";
 
