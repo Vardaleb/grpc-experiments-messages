@@ -3,6 +3,5 @@ syntax = "proto3";
 package demo;
 
 message DemoRequest {
-    int32 id = 1;
-    string query = 2;
+    string query = 1;
 }
